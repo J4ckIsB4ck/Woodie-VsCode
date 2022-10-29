@@ -120,3 +120,12 @@ header div h1{
         top: 400;
         z-index: -1;
 }
+
+.wwa{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
