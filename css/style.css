@@ -94,3 +94,10 @@ header div h1{
     display: inline-block;
     width: 45%;
 }
+.button1{
+    background: #DAA520;
+    border: none;
+    padding: 14px;
+    text-transform: capitalize;
+    color: white;
+}
