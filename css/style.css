@@ -101,3 +101,14 @@ header div h1{
     text-transform: capitalize;
     color: white;
 }
+
+#rounded-img-bl{
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    right: 0;
+    top: 0px;
+    background: #F9BDBD;
+    z-index: -1;
+    border-bottom-left-radius: 100px;
+}
