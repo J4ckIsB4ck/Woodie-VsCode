@@ -93,6 +93,8 @@ header div h1{
 .columsnr2{
     display: inline-block;
     width: 45%;
+    position: relative;
+    left: 200;
 }
 .button1{
     background: #DAA520;
@@ -104,11 +106,17 @@ header div h1{
 
 #rounded-img-bl{
     position: absolute;
-    width: 370px;
+    width: 400px;
     height: 800px;
     right: 0;
     top: 0px;
     background: #F9BDBD;
     z-index: -1;
     border-bottom-left-radius: 100px;
+}
+.flower{
+        position: absolute;
+        right: 260;
+        top: 400;
+        z-index: -1;
 }
