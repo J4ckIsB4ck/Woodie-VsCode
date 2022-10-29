@@ -129,3 +129,13 @@ header div h1{
     align-items: center;
     margin-left: 5px;
 }
+
+.wwa:after{
+    content: "";
+    display: block;
+    width: 700px;
+    height: 1px;
+    background-color: black;
+    margin-left: 20px;
+
+}
