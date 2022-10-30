@@ -94,7 +94,7 @@ header div h1{
     display: inline-block;
     width: 45%;
     position: relative;
-    left: 200;
+    left: 365;
 }
 .button1{
     background: #DAA520;
@@ -121,6 +121,10 @@ header div h1{
         z-index: -1;
 }
 
+.header2 {
+    padding-top: 100px; 
+}
+
 .wwa{
     font-weight: 700;
     font-size: 36px;
@@ -133,9 +137,19 @@ header div h1{
 .wwa:after{
     content: "";
     display: block;
-    width: 700px;
+    width: 1450px;
     height: 1px;
     background-color: black;
     margin-left: 20px;
+    
 
+}
+.au{
+    text-align: center;
+    line-height: 115px;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #2222221A;
+    font-weight: bold;
+    margin-left: -35px;
 }
