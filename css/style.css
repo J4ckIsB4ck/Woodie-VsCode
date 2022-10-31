@@ -109,7 +109,7 @@ header div h1{
 
 #rounded-img-bl{
     position: absolute;
-    width: 400px;
+    width: 550px;
     height: 800px;
     right: 0;
     top: 0px;
@@ -120,7 +120,7 @@ header div h1{
 }
 .flower{
         position: absolute;
-        left: 522;
+        right: 450;
         top: 400;
         z-index: -1;
 }
@@ -256,7 +256,7 @@ header div h1{
     font-size: 96px;
     line-height: 130px;
     align-items: center;
-    color: #F9BDBD;
+    color: #f9bdbd52 ;
 
 }
 #one{
@@ -296,20 +296,24 @@ header div h1{
 
 #text1{
     position: absolute;
-    left: 85px;    
+    left: 85px;
+    top: 24px;    
 }
 #text2{
     position: absolute;
     left: 338px;
+    top: 24px;
 }
 #text3{
     position: absolute;
     right: 375px;
+    top: 24px;
     
 }
 #text4{
     position: absolute;
     right: 100px;
+    top: 24px;
 }
 .button2{
     background: #DAA520;
@@ -321,5 +325,5 @@ header div h1{
 .buttondirection{
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 110px;
 }
