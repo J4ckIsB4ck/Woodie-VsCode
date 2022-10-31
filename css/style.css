@@ -234,3 +234,51 @@ header div h1{
     padding-left: 110px;
         
 }
+
+.section3
+{
+    margin: auto;
+    width: 1100px;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+    z-index: -2;
+}
+.numbers1{
+    justify-content: space-around;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 130px;
+    align-items: center;
+    color: #F9BDBD;
+
+}
+#one{
+    z-index: -1;
+    position: absolute;
+    left: 32px;
+    top: 22px;
+    
+}
+#two{
+    z-index: -1;
+    position: absolute;
+    left: 324px;
+    top: 22;
+}
+#three{
+    z-index: -1;
+    position: absolute;
+    left: 576px;
+    top: 22;
+}
+#four{
+    z-index: -1;
+    position: absolute;
+    left: 855px;
+    top: 22;
+}
