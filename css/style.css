@@ -311,3 +311,15 @@ header div h1{
     position: absolute;
     right: 100px;
 }
+.button2{
+    background: #DAA520;
+    border: none;
+    padding: 14px 24px;
+    text-transform: capitalize;
+    color: white;
+}    
+.buttondirection{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
