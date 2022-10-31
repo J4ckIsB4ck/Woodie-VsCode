@@ -29,7 +29,7 @@ nav{
     
 }
 
-ul{
+.ul{
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -239,11 +239,13 @@ header div h1{
 {
     margin: auto;
     width: 1100px;
+    
 }
 .div{
     display: flex;
     justify-content: space-around;
     z-index: -2;
+    padding-top: 90px;
 }
 .numbers1{
     justify-content: space-around;
@@ -281,4 +283,31 @@ header div h1{
     position: absolute;
     left: 855px;
     top: 22;
+}
+.text{
+    position: absolute;
+    font-weight: 700;
+    size: 24px;
+    line-height: 32px;
+    
+    
+    color: #000000;
+}
+
+#text1{
+    position: absolute;
+    left: 85px;    
+}
+#text2{
+    position: absolute;
+    left: 338px;
+}
+#text3{
+    position: absolute;
+    right: 375px;
+    
+}
+#text4{
+    position: absolute;
+    right: 100px;
 }
