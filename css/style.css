@@ -1,6 +1,9 @@
 body{
     font-family: 'Nunito', sans-serif;
     margin: auto;
+    background: #f1f1f1;
+    width: 1100px;
+    
 }
 
 
@@ -130,7 +133,7 @@ header div h1{
     
 }
 
-.wwa, .wwa2, .wwa3{
+.wwa, .wwa2, .wwa3, .wwa4{
     font-weight: 700;
     font-size: 36px;
     line-height: 50px;
@@ -160,6 +163,14 @@ header div h1{
     content: "";
     display: block;
     width: 205px;
+    height: 1px;
+    background-color: black;
+    margin-left: 20px;
+}
+.wwa4:after{
+    content: "";
+    display: block;
+    width: 240px;
     height: 1px;
     background-color: black;
     margin-left: 20px;
@@ -399,4 +410,176 @@ header div h1{
 #tile5 img {
     padding-left: 8%;
     padding-top: 15%;
+}
+#appartments img{
+    width: 240px;
+    height: 320px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+#textborder {
+    border: 1px solid #A8DCEC;
+    width: 385px;
+    height: 280px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    padding: 40px 15px;
+    display: table-cell;
+    vertical-align: middle; 
+}
+#woman {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    color: #AFAFAF;
+    font-family: 'Nunito';
+    font-weight: 600;
+    size: 12px;
+
+}
+#woman1{
+    border-radius: 60px;
+}
+#selectors{
+    display: flex;
+    justify-content: space-between;
+}
+.Testimony{
+    margin: auto;
+    width: 1100px;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: 400px;
+    grid-column-gap: 18px;
+    grid-row-gap: 40px;
+}
+.direction{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-right: 118px;
+    margin-left: -35px;
+}
+.blocksmain{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40px 40px 40px 40px;
+    grid-template-rows: 10px;
+    grid-column-gap: 15px;
+    margin-left: -10px;
+}
+#blocks{
+    list-style: none;
+    border: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+    border-radius: 6px;
+}
+.li{
+    padding-right: 48px
+}
+#yellowblock{
+    border: 1px solid #DAA520;
+    background-color: #DAA520;
+    border-radius: 6px;
+    list-style: none;
+}
+#bottomtestimony{
+    
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    
+    padding-top: 100px;
+}
+#testimonytext{
+    font-family: 'Nunito';
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 50px;
+    margin-right: 115px;
+}
+form{
+    position: absolute;
+}
+.finder{
+    background: #FFFFFF;
+}
+.finder input{
+    width: 355px;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #DAA520;
+    border-radius: 5px;
+    outline: none;
+    background: #FFFFFF;
+}
+.finder button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 95px;
+    height: 42px;
+    border: none;
+    background: #DAA520;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.finder button:before {
+    content: "Subscribe";
+    font-family: 'Nunito';
+    font-size: 16px;
+    color: #F9F0DA;
+}
+.footerbottom{
+    width: 1100px;
+    margin: auto;
+}
+#divhr{
+    width: 1100px;
+    margin-left: -200px;
+}
+#hr{
+    width: 570px;
+
+}
+#footer{
+    display: grid;
+    grid-template-columns: 210px 160px 175px 160px 165px; 
+    grid-template-rows: 10px 10px;
+    grid-column-gap: 20px;
+    grid-row-gap: 25px;
+    padding-left: 45;
+}
+#Woodiefooter{
+    display: grid;
+    grid-template-columns: 240px 143px 158px 145px 100px;
+    grid-template-rows: 30px;
+    grid-column-gap: 35px;
+    grid-row-gap: 20px ;
+    align-items: center;
+}
+.fontfooter{
+    font-family: 'Nunito';
+    font-weight: 600;
+    size: 18px;
+    line-height: 25px;
+}
+.fontfooter2{
+    font-family: 'Nunito';
+    font-weight: 400;
+    size: 14px;
+    line-height: 20px;
+    color: #8D8D8D;
+}
+#bottom{
+    padding-top: 50px;
+    text-align: center;
+    color: #8D8D8D;
+}
+#pexels{
+    position: absolute;
+    z-index: -1;
+    right: 0;
 }
